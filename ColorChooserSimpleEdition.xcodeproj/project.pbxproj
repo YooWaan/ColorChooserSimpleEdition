@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA52565A1532BD0E00667744 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5256591532BD0E00667744 /* UIKit.framework */; };
+		BA52565C1532BD0E00667744 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA52565B1532BD0E00667744 /* Foundation.framework */; };
+		BA52565E1532BD0E00667744 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA52565D1532BD0E00667744 /* CoreGraphics.framework */; };
+		BA5256641532BD0E00667744 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA5256621532BD0E00667744 /* InfoPlist.strings */; };
+		BA5256661532BD0E00667744 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5256651532BD0E00667744 /* main.m */; };
+		BA52566A1532BD0E00667744 /* CCSEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5256691532BD0E00667744 /* CCSEAppDelegate.m */; };
+		BA52566D1532BD0E00667744 /* CCSEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA52566C1532BD0E00667744 /* CCSEViewController.m */; };
+		BA5256701532BD0E00667744 /* CCSEViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA52566E1532BD0E00667744 /* CCSEViewController_iPhone.xib */; };
+		BA5256731532BD0E00667744 /* CCSEViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA5256711532BD0E00667744 /* CCSEViewController_iPad.xib */; };
+		BA98FA111532E35800EACDBE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA98FA0C1532E35800EACDBE /* Localizable.strings */; };
+		BA98FA121532E35800EACDBE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA98FA0F1532E35800EACDBE /* Localizable.strings */; };
+		BADE3B471532D6A900D0EE1E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADE3B461532D6A900D0EE1E /* QuartzCore.framework */; };
+		BADE3B501532DFBE00D0EE1E /* CCSEiPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADE3B4F1532DFBE00D0EE1E /* CCSEiPhoneViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA5256551532BD0E00667744 /* ColorChooserSimpleEdition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorChooserSimpleEdition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5256591532BD0E00667744 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BA52565B1532BD0E00667744 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA52565D1532BD0E00667744 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BA5256611532BD0E00667744 /* ColorChooserSimpleEdition-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorChooserSimpleEdition-Info.plist"; sourceTree = "<group>"; };
+		BA5256631532BD0E00667744 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA5256651532BD0E00667744 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA5256671532BD0E00667744 /* ColorChooserSimpleEdition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorChooserSimpleEdition-Prefix.pch"; sourceTree = "<group>"; };
+		BA5256681532BD0E00667744 /* CCSEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCSEAppDelegate.h; sourceTree = "<group>"; };
+		BA5256691532BD0E00667744 /* CCSEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCSEAppDelegate.m; sourceTree = "<group>"; };
+		BA52566B1532BD0E00667744 /* CCSEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCSEViewController.h; sourceTree = "<group>"; };
+		BA52566C1532BD0E00667744 /* CCSEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCSEViewController.m; sourceTree = "<group>"; };
+		BA52566F1532BD0E00667744 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CCSEViewController_iPhone.xib; sourceTree = "<group>"; };
+		BA5256721532BD0E00667744 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CCSEViewController_iPad.xib; sourceTree = "<group>"; };
+		BA98FA0D1532E35800EACDBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		BA98FA101532E35800EACDBE /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = Localizable.strings; sourceTree = "<group>"; };
+		BADE3B461532D6A900D0EE1E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BADE3B4E1532DFBE00D0EE1E /* CCSEiPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSEiPhoneViewController.h; sourceTree = "<group>"; };
+		BADE3B4F1532DFBE00D0EE1E /* CCSEiPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSEiPhoneViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA5256521532BD0E00667744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADE3B471532D6A900D0EE1E /* QuartzCore.framework in Frameworks */,
+				BA52565A1532BD0E00667744 /* UIKit.framework in Frameworks */,
+				BA52565C1532BD0E00667744 /* Foundation.framework in Frameworks */,
+				BA52565E1532BD0E00667744 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA52564A1532BD0D00667744 = {
+			isa = PBXGroup;
+			children = (
+				BA52565F1532BD0E00667744 /* ColorChooserSimpleEdition */,
+				BA5256581532BD0E00667744 /* Frameworks */,
+				BA5256561532BD0E00667744 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA5256561532BD0E00667744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA5256551532BD0E00667744 /* ColorChooserSimpleEdition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA5256581532BD0E00667744 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA52565D1532BD0E00667744 /* CoreGraphics.framework */,
+				BA52565B1532BD0E00667744 /* Foundation.framework */,
+				BADE3B461532D6A900D0EE1E /* QuartzCore.framework */,
+				BA5256591532BD0E00667744 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA52565F1532BD0E00667744 /* ColorChooserSimpleEdition */ = {
+			isa = PBXGroup;
+			children = (
+				BADE3B511532E1EE00D0EE1E /* Resources */,
+				BADE3B491532DF0B00D0EE1E /* Classes */,
+				BA5256681532BD0E00667744 /* CCSEAppDelegate.h */,
+				BA5256691532BD0E00667744 /* CCSEAppDelegate.m */,
+				BA52566B1532BD0E00667744 /* CCSEViewController.h */,
+				BA52566C1532BD0E00667744 /* CCSEViewController.m */,
+				BA52566E1532BD0E00667744 /* CCSEViewController_iPhone.xib */,
+				BA5256711532BD0E00667744 /* CCSEViewController_iPad.xib */,
+				BA5256601532BD0E00667744 /* Supporting Files */,
+			);
+			path = ColorChooserSimpleEdition;
+			sourceTree = "<group>";
+		};
+		BA5256601532BD0E00667744 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA5256611532BD0E00667744 /* ColorChooserSimpleEdition-Info.plist */,
+				BA5256621532BD0E00667744 /* InfoPlist.strings */,
+				BA5256651532BD0E00667744 /* main.m */,
+				BA5256671532BD0E00667744 /* ColorChooserSimpleEdition-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA98FA0B1532E35800EACDBE /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				BA98FA0C1532E35800EACDBE /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		BA98FA0E1532E35800EACDBE /* ja.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				BA98FA0F1532E35800EACDBE /* Localizable.strings */,
+			);
+			path = ja.lproj;
+			sourceTree = "<group>";
+		};
+		BADE3B491532DF0B00D0EE1E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BADE3B4A1532DF0C00D0EE1E /* ViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BADE3B4A1532DF0C00D0EE1E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BADE3B4E1532DFBE00D0EE1E /* CCSEiPhoneViewController.h */,
+				BADE3B4F1532DFBE00D0EE1E /* CCSEiPhoneViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BADE3B511532E1EE00D0EE1E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA98FA0B1532E35800EACDBE /* en.lproj */,
+				BA98FA0E1532E35800EACDBE /* ja.lproj */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA5256541532BD0E00667744 /* ColorChooserSimpleEdition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5256761532BD0E00667744 /* Build configuration list for PBXNativeTarget "ColorChooserSimpleEdition" */;
+			buildPhases = (
+				BA5256511532BD0E00667744 /* Sources */,
+				BA5256521532BD0E00667744 /* Frameworks */,
+				BA5256531532BD0E00667744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorChooserSimpleEdition;
+			productName = ColorChooserSimpleEdition;
+			productReference = BA5256551532BD0E00667744 /* ColorChooserSimpleEdition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA52564C1532BD0D00667744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CCSE;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BA52564F1532BD0D00667744 /* Build configuration list for PBXProject "ColorChooserSimpleEdition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+			);
+			mainGroup = BA52564A1532BD0D00667744;
+			productRefGroup = BA5256561532BD0E00667744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA5256541532BD0E00667744 /* ColorChooserSimpleEdition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA5256531532BD0E00667744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5256641532BD0E00667744 /* InfoPlist.strings in Resources */,
+				BA5256701532BD0E00667744 /* CCSEViewController_iPhone.xib in Resources */,
+				BA5256731532BD0E00667744 /* CCSEViewController_iPad.xib in Resources */,
+				BA98FA111532E35800EACDBE /* Localizable.strings in Resources */,
+				BA98FA121532E35800EACDBE /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA5256511532BD0E00667744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5256661532BD0E00667744 /* main.m in Sources */,
+				BA52566A1532BD0E00667744 /* CCSEAppDelegate.m in Sources */,
+				BA52566D1532BD0E00667744 /* CCSEViewController.m in Sources */,
+				BADE3B501532DFBE00D0EE1E /* CCSEiPhoneViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA5256621532BD0E00667744 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA5256631532BD0E00667744 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BA52566E1532BD0E00667744 /* CCSEViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA52566F1532BD0E00667744 /* en */,
+			);
+			name = CCSEViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		BA5256711532BD0E00667744 /* CCSEViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA5256721532BD0E00667744 /* en */,
+			);
+			name = CCSEViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		BA98FA0C1532E35800EACDBE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA98FA0D1532E35800EACDBE /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		BA98FA0F1532E35800EACDBE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA98FA101532E35800EACDBE /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA5256741532BD0E00667744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA5256751532BD0E00667744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA5256771532BD0E00667744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorChooserSimpleEdition/ColorChooserSimpleEdition-Prefix.pch";
+				INFOPLIST_FILE = "ColorChooserSimpleEdition/ColorChooserSimpleEdition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BA5256781532BD0E00667744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorChooserSimpleEdition/ColorChooserSimpleEdition-Prefix.pch";
+				INFOPLIST_FILE = "ColorChooserSimpleEdition/ColorChooserSimpleEdition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA52564F1532BD0D00667744 /* Build configuration list for PBXProject "ColorChooserSimpleEdition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5256741532BD0E00667744 /* Debug */,
+				BA5256751532BD0E00667744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5256761532BD0E00667744 /* Build configuration list for PBXNativeTarget "ColorChooserSimpleEdition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5256771532BD0E00667744 /* Debug */,
+				BA5256781532BD0E00667744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA52564C1532BD0D00667744 /* Project object */;
+}
