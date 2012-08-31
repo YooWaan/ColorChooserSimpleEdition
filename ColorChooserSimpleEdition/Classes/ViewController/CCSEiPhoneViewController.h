@@ -1,5 +1,5 @@
 //
-//  CCSEiPhoneViewController.h
+//  Ccseiphoneviewcontroller.h
 //  ColorChooserSimpleEdition
 //
 //  Created by developer on 12/04/09.
@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CCSEiPhoneViewController : UITableViewController
+@interface CCSEiPhoneViewController : UIViewController
+
+@property (nonatomic, retain) IBOutlet UITableView* colorTableView;
 
 @property (nonatomic) CGFloat redValue;
 @property (nonatomic) CGFloat greenValue;

@@ -5,3 +5,8 @@
   Created by developer on 12/04/09.
   Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 */
+
+"Label.Red" = "Red";
+"Label.Green" = "Green";
+"Label.Blue" = "Blue";
+"Label.Red" = "Alpha";
